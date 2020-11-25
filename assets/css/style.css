@@ -28,6 +28,7 @@
      margin: 0;
  }
 
+/* I'll format all the text in the sections below, this font family is here just in case I forgot to format any text  */
  body {
      font-family: "Roboto", sans-serif;
  }
@@ -46,7 +47,8 @@ header {
   margin: 0 auto;
   transition: all 1.5s ease-in);
   -moz-transition: all 1.5s ease-in;
-    -webkit-transition: all 1.5s ease-in;
+  -webkit-transition: all 1.5s ease-in;
+  -o-transition: all 1.5s ease-in;
 }
 
 .list-inline-item:not(:last-child) {
@@ -76,7 +78,7 @@ header {
     width: 100%;
     text-decoration: none;
     color: #ffffff;
-    height: 128px;
+    height: 120px;
 }
 
 .menuitem a i{
@@ -100,6 +102,7 @@ header {
     font-weight: 100;
     font-size: 40px;
     margin-top: 40px;
+    margin-bottom: 10px;
     text-align: center;
     color: #fff;
 }
@@ -134,4 +137,43 @@ header {
 
     /* -------------------------------------------Footer */
 
+    footer {
+        background-color: #0000009e;
+        color: #fff;
+    }
 
+    footer h5{
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 7px;
+    margin-bottom: 2px;
+    }
+
+    footer p {
+    font-family: "Roboto", sans-serif;
+    /* font-weight: 300; */
+    text-align: center;
+    padding-bottom: 5px;
+    }
+
+    footer a{
+    width: 100%;
+    text-decoration: none;
+    }
+
+footer i {
+    font-size: 18px;
+    color: #fff;
+    padding-left: 5px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+    footer i:hover {
+    color: #eab46e;
+}
