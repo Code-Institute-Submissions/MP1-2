@@ -93,6 +93,79 @@ background-color: #8f6a6d;
     margin: 5px 0px 25px 30px;
 }
 
+.left-side-heading{
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    margin: 25px 0px 25px 30px;
+}
+
+.left-side-sub-heading{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 120%;
+    padding: 0px 0px 10px 15px;
+    text-align: left;
+}
+
+.left-side-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    padding: 0px 15px 0px 15px;
+    text-align: left;
+}
+
+.right-side-heading{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 150%;
+    padding: 25px 0px 0px 15px;
+    text-align: left;
+}
+
+.right-side-sub-heading{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 120%;
+    padding: 5px 0px 0px 15px;
+    text-align: left;
+}
+
+.right-side-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    padding: 0px 10px 0px 15px;
+    text-align: left;
+    color: #212529;
+    }
+
+a:hover {
+text-decoration: none;
+}
+
+.left-side-sub-heading a{
+    color: #212529;
+}
+
+.left-side-text i {
+    font-size: 18px;
+    color: #fff;
+    padding-left: 5px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+    .left-side-text i:hover {
+    color: #212529;
+    }
+
+
+
+
+
  /* -------------------------------------------header */
 
 header {
@@ -181,6 +254,10 @@ header {
     transition-duration: 1s;}
  /* -------------------------------------------home */
 
+
+
+  /* -------------------------------------------personal info */
+
 .personal-item {
     display: block;
     clear: both;
@@ -209,46 +286,12 @@ header {
 
 
  /* -------------------------------------------Portfolio */
-.portfolio-item {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 120%;
-    padding: 0px 0px 20px 15px;
-    text-align: left;
-}
 
-.portfolio-item a{
-    width: 100%;
-    text-decoration: none;
-    color: #212529;
-    /* height: 120px; */
-}
 
-.portfolio h3 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 150%;
-    padding: 25px 0px 0px 15px;
-    text-align: left;
-}
-
-.portfolio h4 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 120%;
-    padding: 0px 0px 0px 15px;
-    text-align: left;
-}
-
-.portfolio p {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 100%;
-    padding: 0px 0px 0px 15px;
-    text-align: left;
-}
 
   /* -------------------------------------------Contact */
+
+
 
 
 
@@ -257,27 +300,11 @@ header {
 .list-group-item {
     position: relative;
     display: block;
-    padding: .75rem 1.25rem;
+    padding: 10px 15px;
     background-color: #bdbfbe;
     }
 
-    .resume p {
-        font-family: "Roboto", sans-serif;
-        margin: 8px 8px 32px 8px;
-    }
-
-.resume i {
-    font-size: 18px;
-    color: #fff;
-    padding-left: 5px;
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-}
-
-    .resume i:hover {
-    color: #212529;}
+   
 
     /* -------------------------------------------Footer */
 
@@ -317,5 +344,5 @@ footer i {
 }
 
     footer i:hover {
-    color: #eab46e;
+    color: #bdbfbe;
 }

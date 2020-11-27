@@ -1,130 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-      integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
-    <title>Rui Oliveira</title>
-  </head>
-  <body>
-    <header>
-      <!-- Header divided in 3 parts: 1/3=photo -->
-      <div class="row no-gutters">
-        <a class="col-md-4 col-sm-6 logo" href="index.html"></a>
-        <!-- Header divided in 3 parts: 2/3=name & title -->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+		integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
-        <div class="col-md-4 col-sm-6 bg-color-name-title">
-          <h1 class="name">Rui Oliveira</h1>
-          <h2 class="title">Full Stack Developer</h2>
-        </div>
-        <!-- Header divided in 3 parts: 3/3=navigation bar -->
-        <div class="col-md-4">
-          <ul class="list-inline menucontainer" id="nav">
-            <li
-              class="col-6 col-sm-3 col-md-6 list-inline-item menu-color-home menuitem"
-            >
-              <a href="index.html" class="hvr-fade"
-                ><i class="far fa-home" aria-hidden="true"></i
-                ><span>Home</span></a
-              >
-            </li>
-            <li
-              class="col-6 col-sm-3 col-md-6 list-inline-item menu-color-portfolio menuitem"
-            >
-              <a href="portfolio.html" class="hvr-fade"
-                ><i class="far fa-briefcase" aria-hidden="true"></i
-                ><span>Portfolio</span></a
-              >
-            </li>
-            <li
-              class="col-6 col-sm-3 col-md-6 list-inline-item menu-color-contact menuitem"
-            >
-              <a href="contact.html" class="hvr-fade"
-                ><i class="far fa-comment" aria-hidden="true"></i
-                ><span>Contact</span></a
-              >
-            </li>
-            <li
-              class="col-6 col-sm-3 col-md-6 list-inline-item menu-color-resume menuitem"
-            >
-              <a href="resume.html" class="hvr-fade"
-                ><i class="far fa-graduation-cap" aria-hidden="true"></i
-                ><span>Resume</span></a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
-    <section class="container-fluid">
-    <div class="row no-gutters">
-      <div class="col-md-4 bg-color-contact-left">
-        <h3 class="section-heading uppercase">Personal info</h3>
+	<title>Rui Oliveira</title>
+</head>
 
-          <div class="personal-item">
-            <div class="key">
-              <p class="uppercase">Name:</p>
-            </div>
-            <div class="value">
-              <p>Rui Oliveira</p>
-            </div>
-          </div>
-          <div class="personal-item">
-            <div class="key">
-              <p class="uppercase">Address:</p>
-            </div>
-            <div class="value">
-              <p>Örebro, Sweden</p>
-            </div>
-          </div>
-          <div class="personal-item">
-            <div class="key">
-              <p class="uppercase">email:</p>
-            </div>
-            <div class="value">
-              <p>Rui.P3LD@gmail.com</p>
-            </div>
-          </div>
-        </div>
-      <div class="col-md-8 bg-color-contact-right">
-       <p>22222</p>
-      </div>
-    </div>
-    </section>
-    <footer class="container-fluid bg-color-footer">
-      <h5 class="uppercase">Download</h5>
-      <p class="inline-block">
-        Need a printable version of my CV? Download it here:
-        <a href="assets/cv/cv.pdf" target="_blank">
-          <i class="far fa-download" aria-hidden="true"></i>
-          <span class="sr-only">Download Link.</span>
-        </a>
-      </p>
-    </footer>
-  </body>
+<body>
+	<header>
+		<!-- Header divided in 3 parts: 1/3=photo -->
+		<div class="row no-gutters">
+			<a class="col-md-4 col-sm-6 logo" href="index.html"></a>
+			<!-- Header divided in 3 parts: 2/3=name & title -->
+
+			<div class="col-md-4 col-sm-6 bg-color-name-title">
+				<h1 class="name">Rui Oliveira</h1>
+				<h2 class="title">Full Stack Developer</h2>
+			</div>
+			<!-- Header divided in 3 parts: 3/3=navigation bar -->
+			<div class="col-md-4">
+				<ul class="list-inline menucontainer" id="nav">
+					<li class="col-6 col-sm-3 col-md-6 list-inline-item menu-color-home menuitem">
+						<a href="index.html"
+							class="hvr-fade"><i class="far fa-home" aria-hidden="true"></i><span>Home</span></a>
+					</li>
+					<li class="col-6 col-sm-3 col-md-6 list-inline-item menu-color-portfolio menuitem">
+						<a href="portfolio.html"
+							class="hvr-fade"><i class="far fa-briefcase" aria-hidden="true"></i><span>Portfolio</span></a>
+					</li>
+					<li class="col-6 col-sm-3 col-md-6 list-inline-item menu-color-contact menuitem">
+						<a href="contact.html"
+							class="hvr-fade"><i class="far fa-comment" aria-hidden="true"></i><span>Contact</span></a>
+					</li>
+					<li class="col-6 col-sm-3 col-md-6 list-inline-item menu-color-resume menuitem">
+						<a href="resume.html"
+							class="hvr-fade"><i class="far fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<section class="container-fluid">
+		<div class="row no-gutters">
+			<div class="col-md-4 bg-color-contact-left">
+				<h3 class="left-side-heading uppercase">Personal info</h3>
+
+				<div class="personal-item">
+					<div class="key">
+						<p class="uppercase">Name:</p>
+					</div>
+					<div class="value">
+						<p>Rui Oliveira</p>
+					</div>
+				</div>
+				<div class="personal-item">
+					<div class="key">
+						<p class="uppercase">Address:</p>
+					</div>
+					<div class="value">
+						<p>Örebro, Sweden</p>
+					</div>
+				</div>
+				<div class="personal-item">
+					<div class="key">
+						<p class="uppercase">email:</p>
+					</div>
+					<div class="value">
+						<p>Rui.P3LD@gmail.com</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8 bg-color-contact-right">
+
+				<div class="row no-gutters justify-content-around">
+					<div class="col-md-6">
+						<h3 class="right-side-heading uppercase">contact me:</h3>
+						<h4 class="right-side-sub-heading">Working from Örebro to the world!</h4>
+						<!-- HTML email tag from https://www.tutorialspoint.com/ -->
+
+						<a class="hvr-fade right-side-text" href="mailto: rui.p3ld@gmail.com">Feel free to contact me
+							<i class="far fa-envelope"></i></a>
+					</div>
+
+					<div class="col-md-6 contact">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1114681.470859784!2d13.912927224857846!3d58.94096215023519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465c017f144aff39%3A0xcfe3b0bad018c93e!2zw5ZyZWJybw!5e1!3m2!1sen!2sse!4v1606468244197!5m2!1sen!2sse"
+							width="95%" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+							aria-hidden="false" tabindex="0"></iframe>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<footer class="container-fluid bg-color-footer">
+		<h5 class="uppercase">Download</h5>
+		<p class="inline-block">
+			Need a printable version of my CV? Download it here:
+			<a href="assets/cv/cv.pdf" target="_blank">
+				<i class="far fa-download" aria-hidden="true"></i>
+				<span class="sr-only">Download Link.</span>
+			</a>
+		</p>
+	</footer>
+</body>
+
 </html>
