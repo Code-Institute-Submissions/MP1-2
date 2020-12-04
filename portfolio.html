@@ -1,118 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-		integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
-		crossorigin="anonymous" />
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-
-	<title>Rui Oliveira</title>
-</head>
-
-<body>
-	<header>
-		<!-- Header divided in 3 parts: 1/3=photo -->
-		<div class="row no-gutters">
-			<a class="col-md-4 col-sm-6 logo" href="index.html"></a>
-			<!-- Header divided in 3 parts: 2/3=name & title -->
-
-			<div class="col-md-4 col-sm-6 bg-color-name-title">
-				<h1 class="name">Rui Oliveira</h1>
-				<h2 class="title">Full Stack Developer</h2>
-			</div>
-			<!-- Header divided in 3 parts: 3/3=navigation bar -->
-			<div class="col-md-4">
-				<ul class="list-inline menucontainer" id="nav">
-					<li class="col-6 col-sm-3 col-md-6 list-inline-item menu-color-home menuitem">
-						<a href="index.html"
-							class="hvr-fade"><i class="far fa-home" aria-hidden="true"></i><span>Home</span></a>
-					</li>
-					<li class="col-6 col-sm-3 col-md-6 list-inline-item menu-color-portfolio menuitem">
-						<a href="portfolio.html"
-							class="hvr-fade"><i class="far fa-briefcase" aria-hidden="true"></i><span>Portfolio</span></a>
-					</li>
-					<li class="col-6 col-sm-3 col-md-6 list-inline-item menu-color-contact menuitem">
-						<a href="contact.html"
-							class="hvr-fade"><i class="far fa-comment" aria-hidden="true"></i><span>Contact</span></a>
-					</li>
-					<li class="col-6 col-sm-3 col-md-6 list-inline-item menu-color-resume menuitem">
-						<a href="resume.html"
-							class="hvr-fade"><i class="far fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</header>
-	<section class="container-fluid">
-		<div class="row no-gutters">
-			<div class="col-md-4 bg-color-portfolio-left">
-				<h3 class="left-side-heading uppercase">Portfolio</h3>
-
-				<div class="portfolio-item left-side-sub-heading">
-					<a class="hvr-fade" href="#MSP1">Milestone Project 1</a>
-				</div>
-				<div class="portfolio-item left-side-sub-heading">
-					<a class="hvr-fade" href="#MSP2">Milestone Project 2</a>
-				</div>
-				<div class="portfolio-item left-side-sub-heading">
-					<a class="hvr-fade" href="#MSP3">Milestone Project 3</a>
-				</div>
-				<div class="portfolio-item left-side-sub-heading">
-					<a class="hvr-fade" href="#MSP4">Milestone Project 4</a>
-				</div>
-			</div>
-<!-- Insert links to the projects. Update projects description -->
-
-			<div class="col-md-8 bg-color-portfolio-right portfolio">
-				<div>
-					<h3 class="right-side-heading" id="MSP1">Milestone Project 1</h3>
-					<h4 class="right-side-sub-heading">User Centric Frontend Development Milestone Project</h4>
-					<p class="right-side-text">In this project, I’ve built a static front-end site to present useful information to users,
-						using all the technologies that you have learned about so far.</p>
-				</div>
-				<div>
-					<h3 class="right-side-heading" id="MSP2">Milestone Project 2</h3>
-					<h4 class="right-side-sub-heading">Interactive Frontend Development Milestone Project</h4>
-					<p class="right-side-text">In this project, I'll build an interactive front-end site. The site should respond to the
-						users' actions, allowing users to actively engage with data, alter the way the site displays the
-						information to achieve their preferred goals.</p>
-				</div>
-				<div>
-					<h3 class="right-side-heading" id="MSP3">Milestone Project 3</h3>
-					<h4 class="right-side-sub-heading">Backend Development Milestone Project</h4>
-					<p class="right-side-text">In this project, I'll build a full-stack site that allows your users to manage a common dataset
-						about a particular domain.</p>
-				</div>
-				<div>
-					<h3 class="right-side-heading" id="MSP4">Milestone Project 4</h3>
-					<h4 class="right-side-sub-heading">Full Stack Frameworks with Django Milestone Project</h4>
-					<p class="right-side-text">In this project, I'll build a full-stack site based around business logic used to control a
-						centrally-owned dataset. You will set up an authentication mechanism and provide paid access to
-						the site's data and/or other activities based on the dataset, such as the purchase of a
-						product/service.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<footer class="container-fluid bg-color-footer">
-		<h5 class="uppercase">Download</h5>
-		<p class="inline-block">
-			Need a printable version of my CV? Download it here:
-			<a href="assets/cv/cv.pdf" target="_blank">
-				<i class="far fa-download" aria-hidden="true"></i>
-				<span class="sr-only">Download Link.</span>
-			</a>
-		</p>
-	</footer>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+      integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Rui Oliveira</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- Header divided in 3 parts: 1/3=photo -->
+      <div class="row no-gutters">
+        <a class="col-md-4 col-sm-6 logo" href="index.html"></a>
+        <!-- Header divided in 3 parts: 2/3=name & title -->
+        <div class="col-md-4 col-sm-6 bg-color-name-title">
+          <h1 class="name">Rui Oliveira</h1>
+          <h2 class="title">Full Stack Developer</h2>
+        </div>
+        <!-- Header divided in 3 parts: 3/3=navigation bar -->
+        <div class="col-md-4">
+          <ul class="list-inline menucontainer" id="nav">
+            <li class="col-6 col-sm-3 col-md-6 list-inline-item menu-color-home menuitem">
+              <a href="index.html"
+                class="hvr-fade"><i class="far fa-home" aria-hidden="true"></i><span>Home</span></a>
+            </li>
+            <li class="col-6 col-sm-3 col-md-6 list-inline-item menu-color-portfolio menuitem">
+              <a href="portfolio.html"
+                class="hvr-fade"><i class="far fa-briefcase" aria-hidden="true"></i><span>Portfolio</span></a>
+            </li>
+            <li class="col-6 col-sm-3 col-md-6 list-inline-item menu-color-contact menuitem">
+              <a href="contact.html"
+                class="hvr-fade"><i class="far fa-comment" aria-hidden="true"></i><span>Contact</span></a>
+            </li>
+            <li class="col-6 col-sm-3 col-md-6 list-inline-item menu-color-resume menuitem">
+              <a href="resume.html"
+                class="hvr-fade"><i class="far fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- MAIN BODY -->
+    <section class="container-fluid">
+      <div class="row no-gutters">
+        <!-- First part of Main body - LIST OF PROJECTS -->
+        <div class="col-md-4 bg-color-portfolio-left">
+          <h3 class="left-side-heading uppercase">Portfolio</h3>
+          <div class="portfolio-item left-side-sub-heading">
+            <a class="hvr-fade" href="#MSP1">Milestone Project 1</a>
+          </div>
+          <div class="portfolio-item left-side-sub-heading">
+            <a class="hvr-fade" href="#MSP2">Milestone Project 2</a>
+          </div>
+          <div class="portfolio-item left-side-sub-heading">
+            <a class="hvr-fade" href="#MSP3">Milestone Project 3</a>
+          </div>
+          <div class="portfolio-item left-side-sub-heading">
+            <a class="hvr-fade" href="#MSP4">Milestone Project 4</a>
+          </div>
+        </div>
+        <!-- Second part of Main body - Projects' description -->
+        <!-- Insert links to the projects. Update projects description -->
+        <div class="col-md-8 bg-color-portfolio-right portfolio">
+          <div>
+            <h3 class="right-side-heading" id="MSP1">Milestone Project 1</h3>
+            <h4 class="right-side-sub-heading">
+              User Centric Frontend Development Milestone Project
+            </h4>
+            <p class="right-side-text">
+              In this project, I’ve built a static front-end site to present
+              useful information to users, using all the technologies that I
+              have learned about so far.
+            </p>
+            <p class="right-side-text">
+              This website has 4 pages: <b>Home</b>, <b>Portfolio</b>, 
+              <b>Contact</b> and <b>Resume</b>. All pages share the same 
+              <b>Header</b> and <b>Footer</b>.
+            </p>
+            <p class="right-side-text">
+              The <b>Header</b> has 3 sections:</p>
+            <ul>
+              <li class="right-side-text">photo with a link to the home page;</li>
+              <li class="right-side-text">name and title;</li>
+              <li class="right-side-text">bar with links to the 4 pages of this website.</li>
+            </ul>
+            <p class="right-side-text">
+              The <b>Footer</b> has a link to easily download the cv.
+            </p>
+            <p class="right-side-text">
+              The <b>Home</b> page includes a section with personal
+              information and a section with what I do, How do I do it and why hire me.
+            </p>
+            <p class="right-side-text">
+              The <b>Portfolio</b> page includes Rui's Portfolio. On the left
+              side of the page, we have a list of projects with a link to the section of 
+              the page related to that project. On the right side of the
+              page, there is a description of each project with a link to that project.
+            </p>
+            <p class="right-side-text">
+              The <b>Contact</b> page includes a section with personal
+              information, a section with a link that allows the user
+              to send me an email and a section with a map showing my location.
+            </p>
+            <p class="right-side-text">
+              The <b>Resume</b> page includes a summary, my work
+              history, my education and my skills.
+            </p>
+            <p class="right-side-text"> This project is hosted in
+              <a href="https://github.com/" class="hvr-fade"
+                target="_blank"><span class="right-side-text">GitHub</span></a>
+              and can be founded <a href="https://ruioliveira83.github.io/MP1" class="hvr-fade"
+                target="_blank"><span class="right-side-text">here <i class="fab fa-github"></i>.</span></a></p>
+          </div>
+          <div>
+            <h3 class="right-side-heading" id="MSP2">Milestone Project 2</h3>
+            <h4 class="right-side-sub-heading">
+              Interactive Frontend Development Milestone Project
+            </h4>
+            <p class="right-side-text">
+              In this project, I'll build an interactive front-end site. The
+              site should respond to the users' actions, allowing users to
+              actively engage with data, alter the way the site displays the
+              information to achieve their preferred goals.
+            </p>
+          </div>
+          <div>
+            <h3 class="right-side-heading" id="MSP3">Milestone Project 3</h3>
+            <h4 class="right-side-sub-heading">
+              Backend Development Milestone Project
+            </h4>
+            <p class="right-side-text">
+              In this project, I'll build a full-stack site that allows your
+              users to manage a common dataset about a particular domain.
+            </p>
+          </div>
+          <div>
+            <h3 class="right-side-heading" id="MSP4">Milestone Project 4</h3>
+            <h4 class="right-side-sub-heading">
+              Full Stack Frameworks with Django Milestone Project
+            </h4>
+            <p class="right-side-text">
+              In this project, I'll build a full-stack site based around
+              business logic used to control a centrally-owned dataset. You will
+              set up an authentication mechanism and provide paid access to the
+              site's data and/or other activities based on the dataset, such as
+              the purchase of a product/service.
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="container-fluid bg-color-footer">
+      <h5 class="uppercase">Download</h5>
+      <p class="inline-block">
+        Need a printable version of my CV? Download it here:
+        <a href="assets/cv/cv.pdf" target="_blank">
+        <i class="far fa-download" aria-hidden="true"></i>
+        <span class="sr-only">Download Link.</span>
+        </a>
+      </p>
+    </footer>
+  </body>
 </html>

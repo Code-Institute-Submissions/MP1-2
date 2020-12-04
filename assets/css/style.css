@@ -1,348 +1,348 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
 
- /* -------------------------------------------colors */
-
-.bg-color-name-title{
-    background-color: #0000009e;
+/* ----------------------------------colors */
+.bg-color-name-title {
+  background-color: #44474a;
 }
 
 .menu-color-home {
-    background-color: #82af8c;
+  background-color: #82af8c;
 }
 
 .menu-color-portfolio {
-    background-color:#eab46e;
+  background-color: #eab46e;
 }
 
 .menu-color-contact {
-    background-color: #96adc5;
+  background-color: #96adc5;
 }
 
 .menu-color-resume {
-    background-color: #8f6a6d;
+  background-color: #8f6a6d;
 }
 
 .bg-color-footer {
-    background-color: #0000009e;
+  background-color: #44474a;
 }
 
-/* use the nav bar color in the pages to keep the page consistency */
 
+/* use the nav bar color in the pages to keep the page consistency */
 .bg-color-home-left {
-background-color: #82af8c;
+  background-color: #82af8c;
 }
 
 .bg-color-home-right {
-    background-color: #bdbfbe;
+  background-color: #bdbfbe;
 }
 
 .bg-color-portfolio-left {
-background-color: #eab46e;
+  background-color: #eab46e;
 }
 
 .bg-color-portfolio-right {
-    background-color: #bdbfbe;
+  background-color: #bdbfbe;
 }
 
 .bg-color-contact-left {
-background-color: #96adc5;
+  background-color: #96adc5;
 }
 
 .bg-color-contact-right {
-    background-color: #bdbfbe;
+  background-color: #bdbfbe;
 }
 
 .bg-color-resume-left {
-background-color: #8f6a6d;
+  background-color: #8f6a6d;
 }
 
 .bg-color-resume-right {
-    background-color: #bdbfbe;
+  background-color: #bdbfbe;
+}
+
+/* ----------------------------------text / margins / paddings */
+h1 h2 h3 h4 h5 {
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 
-
- /* -------------------------------------------text / margins / paddings */
-
- h1 h2 h3 h4 h5 {
-     margin: 0;
- }
-
- .container-fluid {
-     padding: 0;
- }
-
 /* I'll format all the text in the sections below, this font family is here just in case I forgot to format any text  */
- body {
-     font-family: "Roboto", sans-serif;
- }
+body {
+	font-family: "Roboto", sans-serif;
+}
 
 .uppercase {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .section-heading {
-    font-family: "Nunito", sans-serif;
-    font-weight: 200;
-    margin: 25px 0px 25px 30px;
+	font-family: "Nunito", sans-serif;
+	font-weight: 200;
+	margin: 25px 0px 25px 30px;
 }
 
 .sub-heading {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    margin: 5px 0px 25px 30px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	margin: 5px 0px 25px 30px;
 }
 
-.left-side-heading{
-    font-family: "Nunito", sans-serif;
-    font-weight: 200;
-    margin: 25px 0px 25px 30px;
+.left-side-heading {
+	font-family: "Nunito", sans-serif;
+	font-weight: 200;
+	margin: 25px 0px 25px 30px;
 }
 
-.left-side-sub-heading{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 120%;
-    padding: 0px 0px 10px 15px;
-    text-align: left;
+.left-side-sub-heading {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 120%;
+	padding: 20px 0px 10px 15px;
+	text-align: left;
 }
 
-.left-side-text{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 100%;
-    padding: 0px 15px 0px 15px;
-    text-align: left;
+.left-side-text {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 100%;
+	padding: 0px 15px 0px 15px;
+	text-align: left;
 }
 
-.right-side-heading{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 150%;
-    padding: 25px 0px 0px 15px;
-    text-align: left;
+.right-side-heading {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 150%;
+	padding: 25px 0px 15px 15px;
+	text-align: left;
 }
 
-.right-side-sub-heading{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 120%;
-    padding: 5px 0px 0px 15px;
-    text-align: left;
-}
-
-.right-side-text{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 100%;
-    padding: 0px 10px 0px 15px;
-    text-align: left;
+.right-side-sub-heading {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 120%;
+	padding: 5px 0px 0px 15px;
+	text-align: left;
     color: #212529;
-    }
+}
+
+.right-side-text {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 100%;
+	padding: 0px 15px 0px 15px;
+	text-align: left;
+	color: #212529;
+    margin-bottom: 5px;
+}
 
 a:hover {
-text-decoration: none;
+	text-decoration: none;
 }
 
-.left-side-sub-heading a{
-    color: #212529;
+.left-side-sub-heading a {
+	color: #212529;
 }
 
 .left-side-text i {
-    font-size: 18px;
-    color: #fff;
-    padding-left: 5px;
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
+	font-size: 18px;
+	color: #212529;
+	padding-left: 5px;
+	transition: all 0.5s ease-in-out;
 }
 
-    .left-side-text i:hover {
-    color: #212529;
-    }
+.left-side-text i:hover {
+    color: #bdbfbe;
+}
 
-
-
-
-
- /* -------------------------------------------header */
-
+/* ----------------------------------header */
 header {
-    margin: 0;
+	margin: 0;
 }
 
 .logo {
-  background: url("../images/ruio.jpg") no-repeat center center;
-  min-height: 240px;
-  background-color: #bdbfbe;
-  margin: 0 auto;
-  transition: all 1.5s ease-in);
-  -moz-transition: all 1.5s ease-in;
-  -webkit-transition: all 1.5s ease-in;
-  -o-transition: all 1.5s ease-in;
+	background: url("../images/ruio.jpg") no-repeat center center;
+	min-height: 240px;
+	background-color: #bdbfbe;
+	margin: 0 auto;
+	transition: all 1.5s ease-in;
 }
 
 .list-inline-item:not(:last-child) {
-    margin-right: 0;
+	margin-right: 0;
 }
 
 .menucontainer {
-    font-size: 0;
+	font-size: 0;
 }
 
-#nav{
-    margin:0;
+#nav {
+	margin: 0;
 }
 
 #nav li {
-    font-size: 14px;
-    padding: 0;
+	font-size: 14px;
+	padding: 0;
 }
 
-.menuitem{
-    height: 120px;
-    text-align: center;
-    padding: 0;
-    }
-
-.menuitem a{
-    width: 100%;
-    text-decoration: none;
-    color: #ffffff;
-    height: 120px;
+.menuitem {
+	height: 120px;
+	text-align: center;
+	padding: 0;
 }
 
-.menuitem a i{
-    display: block;
-    padding-top: 25px;
-    font-size: 28px;
+.menuitem a {
+	width: 100%;
+	text-decoration: none;
+	color: #ffffff;
+	height: 120px;
 }
 
-.menuitem span{
-    font-family: "Roboto", sans-serif;
-    display: block;
-    width: 100%;
-    padding-top: 7px;
-    font-size: 17px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+.menuitem a i {
+	display: block;
+	padding-top: 25px;
+	font-size: 28px;
+}
+
+.menuitem span {
+	font-family: "Roboto", sans-serif;
+	display: block;
+	width: 100%;
+	padding-top: 7px;
+	font-size: 17px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 .name {
-    font-family: "Nunito", sans-serif;
-    font-weight: 100;
-    font-size: 40px;
-    margin-top: 40px;
-    margin-bottom: 10px;
-    text-align: center;
-    color: #fff;
+	font-family: "Nunito", sans-serif;
+	font-weight: 100;
+	font-size: 40px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #fff;
 }
 
 .title {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 40px;
-    color: #fff;  
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 40px;
+	color: #fff;
 }
 
 .hvr-fade:hover {
-    background-color: rgba(0,0,0,0.2);
-    color: #fff;
-    transition-duration: 1s;}
- /* -------------------------------------------home */
+	background-color: rgba(0, 0, 0, 0.2);
+	color: #fff;
+	transition-duration: 1s;
+}
 
+/* ----------------------------------home */
+.about-me i {
+    color:#82af8c;
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+}
 
+.border{
+        border: 3px solid #44474a!important;
+        padding-bottom: 15px;
+        margin-top: 50px;
+}
 
-  /* -------------------------------------------personal info */
-
+/* ----------------------------------personal info */
 .personal-item {
-    display: block;
-    clear: both;
+	display: block;
+	clear: both;
 }
 
 .personal-item .key {
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    margin: 0px 0px 25px 5px;
-    text-align: right;
-    display: inline-block;
-    text-transform: uppercase;
-      width: 30%;
+	font-family: "Roboto", sans-serif;
+	font-weight: 600;
+	margin: 0px 0px 25px 5px;
+	text-align: right;
+	display: inline-block;
+	text-transform: uppercase;
+	width: 30%;
 }
 
 .personal-item .value {
-    font-family: "Nunito", sans-serif;
-    font-weight: 400;
-    margin: 0px 0px 25px 5px;
-    text-align: left;
-    display: inline-block;
-    width: 60%;
-    position: relative;
+	font-family: "Nunito", sans-serif;
+	font-weight: 400;
+	margin: 0px 0px 25px 5px;
+	text-align: left;
+	display: inline-block;
+	width: 60%;
+	position: relative;
 }
 
+/* ----------------------------------Portfolio */
+.right-side-text span{
+    padding:0;
+}
 
+/* ----------------------------------Contact */
+.contact iframe{
+    width:95%;
+    height: 800px;
+}
 
- /* -------------------------------------------Portfolio */
-
-
-
-  /* -------------------------------------------Contact */
-
-
-
-
-
-   /* -------------------------------------------Resume */
-
+/* ----------------------------------Resume */
 .list-group-item {
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-    background-color: #bdbfbe;
-    }
+   position: relative;
+	display: block;
+	padding: 10px 15px;
+	background-color: #bdbfbe;
+}
 
-   
-
-    /* -------------------------------------------Footer */
-
-    footer {
-        color: #fff;
-    }
-
-    footer h5{
-
+.resume-progress {
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-size: 25px;
-    text-align: center;
-    padding-top: 7px;
-    margin-bottom: 2px;
-    }
+	font-weight: 300;
+	margin: 25px 0px 5px 30px;
+}
 
-    footer p {
-    font-family: "Roboto", sans-serif;
-    text-align: center;
-    padding-bottom: 5px;
-    }
+.progress {
+    margin-bottom: 20px;
+}
 
-    footer a{
-    width: 100%;
-    text-decoration: none;
-    }
+/* ----------------------------------Footer */
+footer {
+	color: #fff;
+}
+
+footer h5 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 7px;
+	margin-bottom: 2px;
+}
+
+footer p {
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+footer a {
+	width: 100%;
+	text-decoration: none;
+}
 
 footer i {
-    font-size: 18px;
-    color: #fff;
-    padding-left: 5px;
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
+	font-size: 18px;
+	color: #fff;
+	padding-left: 5px;
+	transition: all 0.5s ease-in-out;
 }
 
-    footer i:hover {
-    color: #bdbfbe;
+footer i:hover {
+	color: #bdbfbe;
 }
