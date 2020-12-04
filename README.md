@@ -32,7 +32,7 @@ It was used [Balsamiq](https://balsamiq.com/) to create the following wireframes
 
 ### Existing Features
 
-This website has 4 pages: **Home**, **Portfolio**, **Contact** and **Resume** . All pages share the same **Header** and **Footer**.
+This website has 4 pages: **Home**, **Portfolio**, **Contact** and **Resume**. All pages share the same **Header** and **Footer**.
 
 The **Header** has 3 sections:
 
@@ -74,7 +74,7 @@ Add a contact form to allow users to send a message directly, without using thei
 - [Balsamiq](https://balsamiq.com/)
   - The software used to create the project's wireframes.
 - [Bootstrap](https://getbootstrap.com/)
-  - Open-source CSS framework used to create the some layout features in the project.
+  - Open-source CSS framework used to create some layout features in the project.
 - [Google Fonts ](https://en.wikipedia.org/wiki/CSS)
   - Font families library used to provide the fonts "Roboto" and "Nunito".
 - [Font Awesome](https://fontawesome.com/)
@@ -88,6 +88,8 @@ Add a contact form to allow users to send a message directly, without using thei
 - [Responsive Design Checker](https://www.responsivedesignchecker.com/)
   - Responsive Design Checker used to test the responsiveness of the site.
 
+---
+
 ## Testing
 
 ### Code Validators
@@ -100,10 +102,10 @@ Add a contact form to allow users to send a message directly, without using thei
   ![Portfolio Page HTML Validator](readme-images/val-html-portfolio.png)
   - Contact (contact.html) - 3 errors found:
   ![Contact Page HTML Validator](readme-images/val-html-contact-bugs.png)
-  1. The first error was due to an additional space added after mailto:. That space was deleted to eliminate the error.
-  2. The second was due to the value 95% for the width attribute on the iframe element. This attribute was deleted and the width of this element is now controlled in the style.css file.
+  1. The first error was due to an additional space added after "mailto:". That space was deleted to eliminate the error.
+  2. The second was due to the value of 95% for the width attribute on the iframe element. This attribute was deleted and the width of this element is now controlled in the style.css file.
   3. The third error was due to the use of the frameborder attribute. This attribute was deleted to eliminate the error.  
-After amending this errors the found no errors or warnings:
+After amending these errors the found no errors or warnings:
 ![Contact Page HTML Validator](readme-images/val-html-contact.png)
 
   - Resume (resume.html) - No errors or warnings.
@@ -111,9 +113,9 @@ After amending this errors the found no errors or warnings:
 
 - [CSS Validator](https://validator.w3.org/#validate_by_input) (via direct input path):
 
-  - There was 2 errors and 7 warnings on the css:
+  - There were 2 errors and 7 warnings on the css:
 ![errors on CSS validator](readme-images/val-css-bugs.png)
-1. The 2 errors were cause by an extra round bracket. It was deleted to solve the errors.
+1. The 2 errors were caused by an extra round bracket. It was deleted to solve the errors.
 2. the first warning is related to the imported google fonts stylesheet.
 3. all the other errors were due to the use of unknown vendor extensions. All those extensions were deleted.  
 After amending the error no errors were found:
@@ -131,9 +133,9 @@ The responsiveness of all pages was tested:
 - the cv download on the footer is working;
 - the email me option is working and opens the email;
 - all the images are rendering;
-- the website structure adapts well to the used screensize. On a first version of the website the home 
-and contact page didn't have enough content to ocupy the full screen in larger displays. That wasn't 
-looking good and was solved by adding more content and presenting the content in a different way.
+- the website structure adapts well to the used screen size. On a first version of the website, the home 
+and contact page didn't have enough content to occupy the full screen in larger displays. That wasn't 
+looking good and was solved by adding more content and presenting the content differently.
 
 ### Browser compatibility
 
@@ -151,7 +153,7 @@ To __deploy__ the project in GitHub I perform the following steps:
 - Choose the project "MP1" on the Repositories;
 - Click on Settings;
 - Scroll down to the "GitHub Pages" section;
-- Inside "GitHub Pages" section, click on the drop-down menu under Source and select Master Branch;
+- Inside the "GitHub Pages" section, click on the drop-down menu under Source and select Master Branch;
 - The page refreshes automatically and the website is now deployed.
 - The link to the webpage can be found in the GitHub Pages section.
 
@@ -188,5 +190,5 @@ To run the code locally by __cloning__ the project from GitHub:
 ### Acknowledgements
 
 - The [code institute](https://codeinstitute.net) for the inspiration and knowledge to do this website.
-- The code institute [Slack](https://slack.com/) channel, for having an extense library of questions and answer with almost all my questions.
-- My mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for the guidance and support.
+- The code institute [Slack](https://slack.com/) channel, for having an extensive library of questions and answer with almost all my questions.
+- My mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for guidance and support.
