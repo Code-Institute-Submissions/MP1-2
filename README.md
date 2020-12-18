@@ -10,13 +10,13 @@ A live view of this website can be found here: [Rui Oliveira](https://ruioliveir
 
 ---
 ### User Stories
-* As a regular user I want a website responsive and good looking in all devices;
-* As a regular user I want easy to navigate website;
-* As a recruiter and as a potential client I want to visit the website home page to know more about Rui.
-* As a recruiter I want to be able to easly download Rui's cv;
-* As a recruiter and as a potential client I want to be able to contact Rui;
-* As a potential client I want to see Rui's Portfolio to see what is capable of doing;
-* As a potential client I want to see Rui's work history, education and skills;
+* As a regular user, I want a website responsive and good looking in all devices;
+* As a regular user, I wan a website easy to navigate;
+* As a recruiter and as a potential client, I want to visit the website home page to know more about Rui.
+* As a recruiter, I want to be able to easily download Rui's cv;
+* As a recruiter and as a potential client, I want to be able to contact Rui;
+* As a potential client, I want to see Rui's Portfolio to see what is capable of doing;
+* As a potential client, I want to see Rui's work history, education and skills.
 
 ### Wireframes
 It was used [Balsamiq](https://balsamiq.com/) to create the following wireframes:
@@ -117,8 +117,24 @@ The responsiveness of all pages was tested:
 - all the images are rendering;
 
 ### Browser compatibility
-The website was tested in 5 different web browsers: Internet Explorer, Microsoft Edge,
-Mozilla Firefox, Google Chrome and Opera.
+The apperance and responsiveness of the website was tested with good results in 5 different web browsers: Internet Explorer, Microsoft Edge,
+Mozilla Firefox, Google Chrome and Opera. 
+
+### Testing User Stories
+* As a regular user, I want a website responsive and good looking in all devices:
+  - A regular user will find a website with a balanced design and a clear structure in whatever device he chooses to use.
+* As a regular user, I want a website easy to navigate;
+  - A regular user will find a navigation bar with access to all the available pages.
+* As a recruiter and as a potential client, I want to visit the website home page to know more about Rui.
+  - User goes to the homepage and find information about the Rui's background, What he does, how he does it and why hire Rui.
+* As a recruiter, I want to be able to easily download Rui's cv;
+  - A recruiter will find a link to download Rui's cv in the footer of every page and also on the first column of the resume page. This link opens a new tab with a pdf of Rui's cv.
+* As a recruiter and as a potential client, I want to be able to contact Rui;
+  - A user can contact Rui through the email or the form. The email can be found both in home page and contact page and has a link that launches the user's email. The contact page has a form that allows the user to send a message.
+* As a potential client, I want to see Rui's Portfolio to see what is capable of doing;
+  - A user can navigate to the portfolio page and find information related to all the projects done by Rui.
+* As a potential client, I want to see Rui's work history, education and skills.
+  - A user can navigate to the Resume page to find the work history, education, skills and a summary of that information. The user can also find that information on the cv that is available to download on every page.
 
 ### Bugs 
 - There were 3 errors in the Contact page:
